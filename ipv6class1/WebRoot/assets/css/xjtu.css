@@ -1,0 +1,347 @@
+.video-box-child {
+        position: inherit;
+        width: 100%;
+        height: 100%;
+        background: black;
+    }
+    
+    .video-box {
+        height: 752px;
+        width: 100%;
+        padding: 25px;
+        font-size: 0;
+        color: #000;
+        position: relative;
+    }
+    
+    .video_div {
+        position: absolute;
+    }
+    
+    .video_main {
+        width: 65%;
+        height: 640px;
+        /*border: 2px solid currentColor;*/
+        border-top-left-radius: 5px;
+        position: absolute;
+    }
+    
+    .video_right1,
+    .video_right2 {
+        width: 35%;
+        height: 320px;
+        position: absolute;
+        right: 0;
+    }
+    
+    .video_right1 {
+        border-top: 2px solid currentColor;
+        border-right: 2px solid currentColor;
+        border-top-right-radius: 5px;
+    }
+    
+    .video_right2 {
+        bottom: 56px;
+        border-top: 2px solid currentColor;
+        border-right: 2px solid currentColor;
+        border-bottom: 2px solid currentColor;
+    }
+    
+    .video-player-left {
+        position: absolute;
+        /*cursor: pointer;*/
+        left: 0;
+        top: 0;
+        width: 50%;
+        height: 92.2%;
+        z-index: 1999;
+
+    }
+    
+    .video-player-right {
+        position: absolute;
+        /*cursor: pointer;*/
+        left: 50%;
+        top: 0;
+        width: 50%;
+        height: 92.2%;
+        z-index: 1999;
+    }
+    
+    .video-player-only {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 640px;
+        border: 2px solid currentColor;
+        z-index: 2000;
+    }
+    
+    .video-toolbar-all {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        bottom: -10px;
+
+    }
+    
+    .video-box1 {
+        cursor: pointer;
+        /*object-fit: fill;*/
+        width: 100%;
+        height: 100%;
+        background: black;
+    }
+    
+    .video-box2,
+    .video-box3 {
+        cursor: pointer;
+        /*object-fit: fill;*/
+        width: 100%;
+        height: 100%;
+        background: black;
+    }
+    
+    .video-controls-tools {
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background: #000;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 0 10px;
+
+    }
+    
+    .tools-btn {
+        color: #fff;
+        font-size: 30px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .controls-btn {
+        color: #fff;
+        font-size: 40px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .video-mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 56px;
+        background: rgba(0, 0, 0, 0.65);
+        transition: opacity .35s ease;
+        -webkit-transition: opacity .35s ease;
+        -moz-transition: opacity .35s ease;
+        -ms-transition: opacity .35s ease;
+    }
+    
+    .mask-ico {
+        width: 200px;
+        height: 200px;
+        background: rgba(0, 0, 0, 0.51);
+        border-radius: 50%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -100px;
+        margin-left: -100px;
+        cursor: pointer;
+    }
+    
+    .mask-ico>.fa {
+        font-size: 65px;
+        color: rgba(255, 255, 255, 0.81);
+        margin-top: 66px;
+        margin-left: 25px;
+    }
+    
+    .tools-play {}
+    
+    .video-bar-tools {
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+        margin-left: 10px;
+        float: left;
+    }
+    
+    .video-progress {
+        overflow: hidden;
+        background-color: #ddd;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 5px;
+        bottom: -100
+    }
+    
+    .video-seekbar {
+        background: #EEEEEE 0 -202px repeat-x;;
+        padding: 3px;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    
+    .video-playbar {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 5px;
+        background: #4DD0E1;
+        padding: 3px;
+    }
+    
+    .video-volume-bar {
+        position: absolute;
+        overflow: hidden;
+        background: #EEFFEE 0 -250px repeat-x;
+        top: 22px;
+        left: 230px;
+        width: 100px;
+        height: 5px;
+        cursor: pointer;
+    }
+    
+    .video-volume-bar-value {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 5px;
+        background: #4DD0E1;
+        padding: 3px;
+    }
+    
+    .volume-controls-tools {
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+        margin-left: 30px;
+        width: 200px;
+        float: left;
+    }
+    
+    .btn-select {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        margin: 10px;
+        width: 300px;
+        float: left;
+    }
+    
+    .tools-volume-btn {
+        color: #fff;
+        font-size: 25px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .btn-sm {
+        margin: 0 10px;
+    }
+    
+    .tools-up {
+        left: 100px;
+    }
+    
+    .video-tools-currenttime {
+        /*float: left;*/
+        display: inline;
+        cursor: default;
+        font-size: 5px;
+        width: 60px;
+        margin-left: 20px;
+        color: #fff;
+    }
+    
+    .video-tools-duration {
+        /* float: right;*/
+        display: inline;
+        text-align: right;
+        cursor: default;
+        font-size: 5px;
+        width: 60px;
+        margin-right: 20px;
+        color: #fff;
+    }
+    
+    .videotime {
+        padding: 0;
+        overflow: hidden;
+        margin: 10px;
+        width: 180px;
+        float: right;
+    }
+    
+    .video-tools-text {
+        display: inline;
+        font-size: 5px;
+        color: #fff;
+        margin: 5px;
+    }
+    /*div-select-fullscreen*/
+/*.btn-select{
+	padding:0;
+	margin:0 auto;
+	overflow:hidden;
+	position:absolute;
+	right:120px;
+	margin:0;
+	width:140px;
+	height:100%;
+}*/
+.video-btn-select{
+	width:40px;
+	height:40px;
+	color:#000000;
+	background-color:#c8cacc;
+	font-size:16px;
+	font-weight:normal;
+	font-family:Arial;
+	border:0px solid #dcdcdc;
+	-webkit-border-top-left-radius:7px;
+	-moz-border-radius-topleft:7px;
+	border-top-left-radius:7px;
+	-webkit-border-top-right-radius:7px;
+	-moz-border-radius-topright:7px;
+	border-top-right-radius:7px;
+	-webkit-border-bottom-left-radius:7px;
+	-moz-border-radius-bottomleft:7px;
+	border-bottom-left-radius:7px;
+	-webkit-border-bottom-right-radius:7px;
+	-moz-border-radius-bottomright:7px;
+	border-bottom-right-radius:7px;
+	-moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+	box-shadow: inset 0px 0px 0px 0px #ffffff;
+	text-align:center;
+	display:inline-block;
+	text-decoration:none;
+	cursor: pointer;
+}
+.video-btn-select:hover{
+	background-color:#d3d3d3;
+}
+.video-btn-select-selected{
+	background-color:#4a8cf7;
+}
+.video-btn-select-selected:hover{
+	background-color:#5191ff;
+}
+.video-btn-select:focus{
+	outline: 0;
+}
+/*****************************************************************/
